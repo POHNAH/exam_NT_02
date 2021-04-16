@@ -1,0 +1,6 @@
+vuser_init.c(5): 131106.887322803zHtDiVApfVzzzzzHtAtzcpizDV
+CreateTicket.c(7): Денег: 7000
+CreateTicket.c(116): Куплен билет из San Francisco до Sydney. Цена: 4919. ID рейса туда: 481;2386;04/15/2021. ID рейса обратно: 842;2533;04/18/2021.
+CreateTicket.c(7): Денег: 2081
+CreateTicket.c(64): Денег не хватило. Стоимость билета: 5255. Остатовк денег: 2081
+logic.c(16): Билет №1 цена 4919$.

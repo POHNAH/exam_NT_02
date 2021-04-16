@@ -1,0 +1,69 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=exam_NT_02.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=60
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.60.0.971
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+logic=logic.c
+Enter=Enter.c
+CreateTicket=CreateTicket.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+logic=1
+Enter=1
+CreateTicket=1
+vuser_end=1
+[Recorded Actions]
+vuser_init=0
+logic=0
+Enter=0
+CreateTicket=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+logic=1
+Enter=1
+CreateTicket=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+logic=cci
+Enter=cci
+CreateTicket=cci
+vuser_end=cci
+[TransactionsOrder]
+Order=
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
